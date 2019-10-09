@@ -12,4 +12,6 @@
 
 6- Open a web browser and go to http://0.0.0.0:8000
 
+![Screenshot](flask.png)
+
 
