@@ -33,4 +33,4 @@ if __name__ == '__main__':
 	# load ml model
 	model = joblib.load('model.pkl')
 	# start api
-	app.run(host='https://gdg-ml-team.github.io', debug=True)
+	app.run(host='0.0.0.0', port=8000, debug=True)
