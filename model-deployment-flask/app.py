@@ -33,4 +33,4 @@ if __name__ == '__main__':
 	# load ml model
 	model = joblib.load('model.pkl')
 	# start api
-	app.run(host='https://gdg-ml-team.github.io/DevFest19/model-deployment-flask/', debug=True)
+	app.run(host='https://gdg-ml-team.github.io/DevFest19/model-deployment-flask/templates/', debug=True)
